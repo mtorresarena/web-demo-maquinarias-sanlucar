@@ -1,0 +1,44 @@
+{
+  "policy": "Material publicado en perfiles comerciales inequívocos de la empresa; uso editorial y nunca como inventario disponible.",
+  "required_label": "Imágenes publicadas en perfiles comerciales de la empresa. No representan disponibilidad actual.",
+  "license_note": "Derechos no declarados como licencia libre; uso restringido a esta demo para la empresa.",
+  "images": [
+    {
+      "file": "assets/logo.webp",
+      "dimensions": {"width": 210, "height": 210},
+      "source": "https://autoline.es/img/dealers/logos/7/3/1598912846645934429.webp?1775637143",
+      "use": "Logo de perfil comercial"
+    },
+    {
+      "file": "assets/hero-marketplace-1920.webp",
+      "dimensions": {"width": 1920, "height": 1080},
+      "source_dimensions": {"width": 1280, "height": 720},
+      "source": "https://autoline.es/img/dealers/photos/1598/91/1598912846645934429/marketplace_panorama_cropped.webp?t=1768810651",
+      "use": "Imagen editorial contenida; tamaño efectivo limitado a 1280 px CSS"
+    },
+    {
+      "file": "assets/apoyo-cargadora-cadenas.jpg",
+      "dimensions": {"width": 308, "height": 231},
+      "source": "Perfil comercial de la empresa",
+      "use": "Miniatura editorial contenida; no ampliar"
+    },
+    {
+      "file": "assets/apoyo-excavadora.jpg",
+      "dimensions": {"width": 308, "height": 231},
+      "source": "Perfil comercial de la empresa",
+      "use": "Miniatura editorial contenida; no ampliar"
+    },
+    {
+      "file": "assets/apoyo-cargadora-ruedas.jpg",
+      "dimensions": {"width": 308, "height": 231},
+      "source": "Perfil comercial de la empresa",
+      "use": "Miniatura editorial contenida; no ampliar"
+    },
+    {
+      "file": "assets/apoyo-manipuladora.jpg",
+      "dimensions": {"width": 308, "height": 231},
+      "source": "Perfil comercial de la empresa",
+      "use": "Miniatura editorial contenida; no ampliar"
+    }
+  ]
+}
