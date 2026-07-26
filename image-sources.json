@@ -14,7 +14,7 @@
       "dimensions": {"width": 1920, "height": 1080},
       "source_dimensions": {"width": 1280, "height": 720},
       "source": "https://autoline.es/img/dealers/photos/1598/91/1598912846645934429/marketplace_panorama_cropped.webp?t=1768810651",
-      "use": "Imagen editorial contenida; tamaño efectivo limitado a 1280 px CSS"
+      "use": "Miniatura de archivo de perfil comercial; 240 × 135 px máximo, nunca ampliada"
     },
     {
       "file": "assets/apoyo-cargadora-cadenas.jpg",

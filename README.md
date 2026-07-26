@@ -23,11 +23,11 @@ Las pruebas comprueban estructura, enlaces, assets, límites editoriales de imag
 ## Archivos
 
 - `index.html`: contenido y estructura accesible.
-- `styles.css`: diseño responsive, con hero limitado a 1280 px y miniaturas sin ampliación por encima de 308 px.
+- `styles.css`: diseño responsive, con hero editorial sin fotografía ampliada y miniaturas sin ampliación.
 - `script.js`: menú móvil, cabecera y año del pie.
 - `image-sources.json`: procedencia y restricciones editoriales.
 - `assets/`: seis recursos aprobados.
 
 ## Nota editorial
 
-Las imágenes proceden de perfiles comerciales inequívocos de la empresa y se emplean solo en esta demo. No constituyen inventario ni representan disponibilidad actual. Los derechos no se han declarado como licencia libre; debe confirmarse el permiso de reutilización antes de publicar.
+Las imágenes proceden de perfiles comerciales inequívocos de la empresa y se emplean solo en esta demo. La imagen histórica de cabecera aparece únicamente como miniatura de archivo contenida. No constituyen inventario ni representan disponibilidad actual. Los derechos no se han declarado como licencia libre; debe confirmarse el permiso de reutilización antes de publicar.

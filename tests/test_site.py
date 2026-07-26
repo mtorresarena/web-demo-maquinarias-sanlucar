@@ -73,8 +73,13 @@ class SiteTests(unittest.TestCase):
 
     def test_editorial_image_limits_and_label(self):
         self.assertGreaterEqual(self.html.count(REQUIRED_LABEL), 2)
-        self.assertRegex(self.css, r"\.hero\{[^}]*max-width:1280px")
+        self.assertNotIn("background:url('assets/hero-marketplace-1920.webp')", self.css)
+        self.assertRegex(self.css, r"\.archive-thumb\{[^}]*max-width:240px")
+        self.assertIn("Archivo de perfil comercial", self.html)
         self.assertRegex(self.css, r"\.machine-card img\{[^}]*max-width:308px")
+        hero_thumb = [i for i in self.parser.images if "hero-marketplace" in i.get("src", "")]
+        self.assertEqual(len(hero_thumb), 1)
+        self.assertEqual((hero_thumb[0].get("width"), hero_thumb[0].get("height")), ("240", "135"))
         thumbs = [i for i in self.parser.images if "apoyo-" in i.get("src", "")]
         self.assertEqual(len(thumbs), 4)
         self.assertTrue(all(i.get("width") == "308" and i.get("height") == "231" for i in thumbs))
